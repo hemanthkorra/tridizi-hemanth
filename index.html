@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utopia - Design a Space You Love</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+            color: white;
+            padding: 15px 50px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .logo img {
+            width: 30px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+
+        .nav-actions button {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+
+        .register-btn {
+            background-color: white;
+            color: black;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px;
+        }
+
+        .hero-text {
+            width: 50%;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #444;
+            margin: 20px 0;
+        }
+
+        .browse-btn {
+            background-color: black;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .hero-image img {
+            width: 400px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Utopia Logo"> Utopia
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Instructors ⌄</a></li>
+            <li><a href="#">All Categories ⌄</a></li>
+            <li><a href="#">View Plans</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="search-btn">🔍</button>
+            <button class="login-btn">Login</button>
+            <button class="register-btn">Register</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Design a Space <br> <span class="underline">You Love</span></h1>
+            <p>Give your favorite room in the house a first-class face-lift with home renovation expert Shea McGee.  
+               Discover how to add new and simple flares that transform the look and feel of the room entirely.</p>
+            <button class="browse-btn">Browse Sessions</button>
+        </div>
+        <div class="hero-image">
+            <img src="designer.jpg" alt="Interior Designer">
+        </div>
+    </section>
+</body>
+</html>
